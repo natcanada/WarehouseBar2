@@ -1,0 +1,119 @@
+body {
+    background-image: url(../images/warehouse_bar.png);
+    max-width: 100%;
+    height: auto;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.inline-block logo {
+    background-image: url(../images/warehouse-saloon-billiards-logo-white-gold@\ \(1\).png);
+    width: 130px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+.topnav {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 250px;
+    font-size: 35px;
+    padding-top: 2%;
+}
+
+
+li {
+    float: left;
+    padding: 20px;
+    color: white;
+}
+
+#categoryGridArea {
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-areas: 
+    "Happening Tonight"
+    "Choose Your Jam"
+    "See the Fight"
+    "Join the Party"
+    ;
+}
+
+
+.categoryGridArea {
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    display: grid;
+    align-content: flex-start;
+}
+
+#HappeningTonightBox {
+    grid-area: Happening Tonight;
+    background-color: yellow;
+}
+
+
+#ChooseYourJamBox {
+    grid-area: Choose Your Jam;
+    background-color: orange;
+
+}
+
+#SeetheFightBox {
+    grid-area: See the Fight;
+    background-color: green;
+}
+
+#JointhePartyBox {
+    grid-area: Join the Party;
+    background-color: blue;
+}
+
+.fights {
+    max-width: 50%;
+    height: 50%;
+}
+
+
+h1 {
+    color: #9E2A25;
+    font-size: larger;
+}
+
+
+
+
+h2 {
+    color: white;
+}
+
+
+p {
+    color: white;
+}
+
+
+h3 {
+    color: white;
+}
+
